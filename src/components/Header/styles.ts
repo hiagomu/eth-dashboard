@@ -11,7 +11,7 @@ const header = styled.header`
 const wrapLogoNav = styled.div`
     display: flex;
     justify-content: space-between;
-    width: 40rem;
+    width: 50rem;
     margin-left: 1rem;
 `
 
@@ -19,7 +19,7 @@ const logo = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 8rem;
+    width: 9rem;
 
     img {
         height: 2rem;
@@ -27,9 +27,9 @@ const logo = styled.div`
     }
 
     p {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: bold;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
         color: #2E58FF;
     }
 `
@@ -37,7 +37,7 @@ const logo = styled.div`
 const navBar = styled.nav`
     display: flex;
     align-items: center;
-    width: 28rem;
+    width: 36rem;
 
     ul {
         display: flex;
@@ -47,8 +47,8 @@ const navBar = styled.nav`
 
     a {
         text-decoration: none;
-        font-size: 1.2rem;
-        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        font-family: 'Space Grotesk', sans-serif;
         color: #2E58FF;
     
         &:hover {
